@@ -1,0 +1,31 @@
+
+{% assign lab = include.lab[1] %}
+
+<div class="card">
+    <div class="card-body">
+
+        <h4 class="card-title">
+            {{  lab.display_name }}
+        </h4>
+        
+        <div class="card-text">
+            <b>Research Areas:</b> {{ lab.research_areas | markdownify }}
+        </div>
+            
+        <a href="{{ lab.pub_link }}"> Publication Page &raquo;</a>
+
+    </div>
+        <div class="card-footer d-flex flex-row flex-wrap">
+            <div>
+                {% if lab.pis.first == lab.pis.last %}
+                    Faculty Member: 
+                {% else %}
+                    Faculty Members: 
+                {% endif %}
+                {% for pi in lab.pis %}
+                    {% assign person = site.data.people[pi.user_name]  %}
+                    {% include person-image.html person=person %}
+                {% endfor %}
+            </div>
+        </div>
+</div>

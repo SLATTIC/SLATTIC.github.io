@@ -1,0 +1,47 @@
+---
+layout: default
+title: People
+notitle: true
+
+picture-role-groups:
+- {roles: [faculty, phd], width: 12}
+
+no-picture-role-groups:
+- {roles: [alum-faculty, alum-phd, alum-visit/uc], width: 12}
+---
+
+<p>
+<br>
+TTIC is hiring new
+<a href="http://www.ttic.edu/faculty-hiring.php">faculty</a>, both
+tenure-track and endowed 3-year research faculty, including in
+speech and language.
+</p>
+
+<p>
+We are always looking for motivated
+<a href="http://www.ttic.edu/phd-program.php">PhD students</a>, visiting
+students, and undergraduate research assistants.
+</p>
+
+<section>
+<section class="people row justify-content-between">
+    {% for role-group in page.picture-role-groups %}
+        <div class="col-md-{{ role-group.width }}">
+            {% for role in role-group.roles %}
+                {% include role-people.html role=role image=true %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+</section>
+
+<section class="people row justify-content-between">
+    {% for role-group in page.no-picture-role-groups %}
+        <div class="col-md-{{ role-group.width }}">
+            {% for role in role-group.roles %}
+                {% include role-people.html role=role image=false %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+</section>
+</section>

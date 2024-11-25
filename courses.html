@@ -1,0 +1,73 @@
+---
+layout: default
+title: Courses
+notitle: true
+---
+
+<section>
+<h2>Courses</h2>
+<table class="table">
+<tbody>
+
+{% for item in site.data.courses %}
+    {% assign course = item[1] %}
+    <tr>
+    <td>
+    
+    <h3 class="pt-3">
+    {% if course.webpage %}
+        <a href={{ course.webpage }}> {{ course.name }} </a>
+    {% else %}
+        {{ course.name }}
+    {% endif %}
+    </h3>
+
+    <p>
+    {% for coursecode in course.codes %}
+        <b> {{ coursecode.code }} </b>
+        {% if coursecode.note %}
+            ({{ coursecode.note }})
+        {% endif %}
+        {% if coursecode != course.codes.last %}
+            and
+        {% endif %}
+    {% endfor %}
+    </p>
+
+    <p>
+    {% if course.instructors %}
+        {% if course.instructors.first == course.instructors.last %}
+            Instructor:
+        {% else %}
+            Instructors:
+        {% endif %}
+    {% endif %}
+    {% for instructor in course.instructors %}
+        {% if instructor.link %}
+            <a href={{ instructor.link }}>{{ instructor.name }}</a>
+        {% else %}
+            <a> {{ instructor.name }} </a>
+        {% endif %}
+        {% if instructor != course.instructors.last %}
+            and
+        {% endif %}
+    {% endfor %}
+    </p>
+    
+    {% if course.description %}
+        <p> {{ course.description }} </p>
+    {% endif %}
+
+    {% for note in course.notes %}
+        <p>
+        <a><i>{{ note.tag }}</i>:</a> {{note.content}}
+        <p>
+    {% endfor %}
+
+    </td>
+    </tr>
+{% endfor %}
+
+</tbody>
+</table>
+</section>

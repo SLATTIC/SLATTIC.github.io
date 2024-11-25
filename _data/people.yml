@@ -1,0 +1,625 @@
+prof-sg:
+    display_name: "Shiry Ginosar"
+    webpage: https://shiry.ttic.edu/
+    role: faculty
+    image: https://ttic.edu/img/ginosar_small.jpg
+    bio: Assistant Professor
+
+prof-jk:
+    display_name: "Jungo Kasai"
+    webpage: https://jungokasai.github.io
+    role: faculty
+    image: https://ttic.edu/img/kasai_small.jpg
+    bio: Research Assistant Professor (on leave)
+
+prof-kl:
+    display_name: "Karen Livescu"
+    webpage: http://www.ttic.edu/livescu
+    role: faculty
+    image: https://www.ttic.edu/img/livescu_small.jpg
+    bio: Professor
+
+prof-dm:
+    display_name: "David McAllester"
+    webpage: http://www.ttic.edu/mcallester
+    role: faculty
+    image: https://www.ttic.edu/img/mcallester_small.jpg
+    bio: Professor
+
+prof-hm:
+    display_name: "Hongyuan Mei"
+    webpage: https://www.hongyuanmei.com/
+    role: faculty
+    image: https://ttic.edu/img/mei_small.jpg
+    bio: Visiting Scientist
+
+prof-km:
+    display_name: "Kanishka Misra"
+    webpage: https://kanishka.website/
+    role: faculty
+    image: https://ttic.edu/img/misra_small.jpg
+    bio: Research Assistant Professor
+
+prof-gs:
+    display_name: "Greg Shakhnarovich"
+    webpage: https://home.ttic.edu/~gregory/
+    role: faculty
+    image: https://www.ttic.edu/img/shakhnarovich_small.jpg
+    bio: Professor
+
+prof-zs:
+    display_name: "Zhewei Sun"
+    webpage: https://zhewei-sun.github.io/
+    role: faculty
+    image: https://ttic.edu/img/sun_small.jpg
+    bio: Research Assistant Professor
+
+prof-ct:
+    display_name: "Chenhao Tan"
+    webpage: https://chenhaot.com/
+    role: faculty
+    image: https://www.ttic.edu/img/tan_small.jpg
+    bio: Courtesy Faculty
+
+prof-mw:
+    display_name: "Matthew Walter"
+    webpage: http://www.ttic.edu/walter/
+    role: faculty
+    image: https://www.ttic.edu/img/walter_small.jpg
+    bio: Associate Professor
+
+# Add a padding dummy entry if the number of people is odd
+# This works around a formatting issue
+# Original template code modified to display empty image with box when the name field is empty
+# prof-pad:
+#     display_name: ""
+#     role: faculty
+
+
+phd-bmc:
+    display_name: "Marcelo Beramendi Caballero"
+    webpage: https://nexusmind.me/
+    role: phd
+    image: https://ttic.edu/img/caballero_small.jpg
+
+phd-cc:
+    display_name: "Chung-Ming Chien"
+    webpage: http://ttic.uchicago.edu/~mchen/
+    role: phd
+    image: https://ttic.edu/img/chien_small.jpg
+
+phd-jc:
+    display_name: "Ju-Chieh Chou"
+    webpage: https://home.ttic.edu/~jcchou/
+    role: phd
+    image: http://www.ttic.edu/img/chou_small.jpg
+
+phd-ap:
+    display_name: "Ankita Pasad"
+    webpage: https://ankitapasad.github.io/
+    role: phd
+    image: http://www.ttic.edu/img/pasad_small.jpg
+
+phd-ms:
+    display_name: "Marcelo Sandoval-Castañeda"
+    webpage: https://mudtriangle.com
+    role: phd
+    image: https://ttic.edu/img/sandoval-castaneda_small.jpg
+
+phd-jy:
+    display_name: "Jessica Yang"
+    webpage: https://ttic.edu/students/
+    role: phd
+    image: http://www.ttic.edu/img/yang_small.jpg
+
+phd-dy:
+    display_name: "David Yunis"
+    webpage: https://dyunis.github.io/
+    role: phd
+    image: http://www.ttic.edu/img/yunis_small.jpg
+
+phd-tx:
+    display_name: "Tianyang (Sally) Xu"
+    webpage: https://ttic.edu/students/
+    role: phd
+    image: http://www.ttic.edu/img/tianyangxu_small.jpg
+
+# Padding dummy entry for formatting
+# grad-pad:
+#     display_name: ""
+#     role: phd
+
+#############
+####ALUMS####
+#############
+
+###FACULTY###
+
+alum-faculty-b1:
+    display_name: Jiawei Zhou
+    role: alum-faculty
+    bio: (was Research Assistant Professor; now faculty at Stony Brook U.)
+    webpage: https://sites.harvard.edu/jzhou/
+
+alum-faculty-b0:
+    display_name: Kevin Gimpel
+    role: alum-faculty
+    bio: (was Assistant Professor; now VP of Research at Quillbot)
+    webpage: https://home.ttic.edu/~kgimpel/
+
+alum-faculty-a9:
+    display_name: Kartik Goyal
+    role: alum-faculty
+    bio: (was Research Assistant Professor; now faculty at Georgia Tech)
+    webpage: https://kgoyal.github.io/
+
+alum-faculty-a8:
+    display_name: Allyson Ettinger
+    role: alum-faculty
+    bio: (was Assistant Professor at U. Chicago and courtesy faculty at TTIC; now at AI2)
+    webpage: https://aetting.github.io/
+
+alum-faculty-a7:
+    display_name: Sam Wiseman
+    role: alum-faculty
+    bio: (was Research Assistant Professor; now faculty at Duke)
+    webpage: https://swiseman.github.io/
+
+alum-faculty-a6:
+    display_name: Mrinmaya Sachan
+    role: alum-faculty
+    bio: (was Research Assistant Professor; now faculty at ETH Zurich)
+    webpage: https://sites.google.com/site/mrinsachan/
+
+alum-faculty-a5:
+    display_name: Karl Stratos
+    role: alum-faculty
+    bio: (was Research Assistant Professor; now faculty at Rutgers)
+    webpage: http://karlstratos.com/
+
+alum-faculty-a4:
+    display_name: Liang Lu
+    role: alum-faculty
+    bio: (was Research Assistant Professor; now at Microsoft)
+    webpage: http://ttic.uchicago.edu/~llu/
+
+alum-faculty-a3:
+    display_name: Mohit Bansal
+    role: alum-faculty
+    bio: (was Research Assistant Professor; now faculty at UNC Chapel Hill)
+    webpage: http://www.cs.unc.edu/~mbansal/
+
+alum-faculty-a2:
+    display_name: Raman Arora
+    role: alum-faculty
+    bio: (was Research Assistant Professor; now faculty at Johns Hopkins University)
+    webpage: http://www.cs.jhu.edu/~raman/Home.html
+
+alum-faculty-a1:
+    display_name: George Papandreou
+    role: alum-faculty
+    bio: (was Research Assistant Professor; now at Google)
+    webpage: http://www.ttic.edu/papandreou
+
+alum-faculty-a0:
+    display_name: Joseph Keshet
+    role: alum-faculty
+    bio: (was Research Assistant Professor; now faculty at Technion)
+    webpage: http://u.cs.biu.ac.il/~jkeshet
+
+
+###PHD/POSTDOC###
+
+alum-phd-b7:
+    display_name: Davis Yoshida
+    role: alum-phd
+    bio: (Ph.D. 2024 &rarr; Continua AI)
+    webpage: https://github.com/davisyoshida
+
+alum-phd-b6:
+    display_name: Freda Shi
+    role: alum-phd
+    bio: (Ph.D. 2024 &rarr; U. Waterloo)
+    webpage: http://ttic.uchicago.edu/~freda/
+
+alum-phd-b5:
+    display_name: Lingyu Gao
+    role: alum-phd
+    bio: (Ph.D. 2024 &rarr; ETS)
+    webpage: http://lygao.me/
+
+alum-phd-b4:
+    display_name: Shane Settle
+    role: alum-phd
+    bio: (Ph.D. 2023 &rarr; Google)
+    webpage: https://github.com/shane-settle/
+
+alum-phd-b3:
+    display_name: Bowen Shi
+    role: alum-phd
+    bio: (Ph.D. 2023 &rarr; Meta)
+    webpage: https://home.ttic.edu/~bshi/
+
+alum-phd-b2:
+    display_name: Qingming Tang
+    role: alum-phd
+    bio: (Ph.D. 2023 &rarr; Amazon)
+    webpage: http://ttic.uchicago.edu/~qmtang
+
+alum-phd-b1:
+    display_name: Shubham Toshniwal
+    role: alum-phd
+    bio: (Ph.D. 2022 &rarr; NVIDIA)
+    webpage: http://ttic.uchicago.edu/~shtoshni/
+
+alum-phd-b0:
+    display_name: Mingda Chen
+    role: alum-phd
+    bio: (Ph.D. 2022 &rarr; Meta)
+    webpage: https://ttic.uchicago.edu/~mchen/
+
+alum-phd-a9:
+    display_name: Lifu Tu
+    role: alum-phd
+    bio: (Ph.D. 2021 &rarr; Salesforce)
+    webpage: https://ttic.uchicago.edu/~lifu/
+
+alum-phd-a8:
+    display_name: Hai Wang
+    role: alum-phd
+    bio: (Ph.D. 2020 &rarr; JD Finance)
+    webpage: https://ttic.uchicago.edu/~haiwang/
+
+alum-phd-a7:
+    display_name: Takeshi Onishi
+    role: alum-phd
+    bio: (Ph.D. 2020 &rarr; TMC)
+    webpage: https://0024takeshi.bitbucket.io/
+
+alum-phd-a6:
+    display_name: Hao Tang
+    role: alum-phd
+    bio: (Ph.D. 2017 &rarr; post-doc at MIT &rarr; faculty U. Edinburgh)
+    webpage: https://homepages.inf.ed.ac.uk/htang2/
+
+alum-phd-a5:
+    display_name: John Wieting
+    role: alum-phd
+    bio: (Ph.D. student 2015&ndash;2017 &rarr; CMU Ph.D. 2020 &rarr; Google)
+    webpage: https://www.cs.cmu.edu/~jwieting/
+
+alum-phd-a4:
+    display_name: Weiran Wang
+    role: alum-phd
+    bio: (post-doc 2014&ndash;2017 &rarr; Google)
+    webpage: http://ttic.uchicago.edu/~wwang5
+
+alum-phd-a3:
+    display_name: Herman Kamper
+    role: alum-phd
+    bio: (post-doc 2017 &rarr; faculty at Stellenbosch University)
+    webpage: http://www.kamperh.com/
+
+alum-phd-a2:
+    display_name: Taehwan Kim
+    role: alum-phd
+    bio: (Ph.D. 2016 &rarr; post-doc at Caltech &rarr; UNIST)
+    webpage: http://ttic.uchicago.edu/~taehwan/
+
+alum-phd-a1:
+    display_name: Raman Arora
+    role: alum-phd
+    bio: (post-doc 2011&ndash;2013 &rarr; faculty at Johns Hopkins University)
+    webpage: http://www.cs.jhu.edu/~raman/Home.html
+
+alum-phd-a0:
+    display_name: Bahador Nooraei
+    role: alum-phd
+    bio: (MS 2015)
+
+
+###VISITING/UCHICAGO###
+
+alum-visit/uc-f7:
+    display_name: Songcheng Cai,
+    role: alum-visit/uc
+    bio: Zhejiang U. (2023-)
+
+alum-visit/uc-f6:
+    display_name: Shester Gueuwou,
+    role: alum-visit/uc
+    bio: Kwame Nkrumah University of Science and Technology (2023-)
+
+alum-visit/uc-f5:
+    display_name: Yanhong Li,
+    role: alum-visit/uc
+    bio: U. Chicago (2023-)
+
+alum-visit/uc-f4:
+    display_name: Jason Peng,
+    role: alum-visit/uc
+    bio: U. Chicago (2020)
+
+alum-visit/uc-f3:
+    display_name: Tianyu Liu,
+    role: alum-visit/uc
+    bio: Peking University (2019)
+
+alum-visit/uc-f2:
+    display_name: Shuning Jin,
+    role: alum-visit/uc
+    bio: UMN/UMD (2019-20)
+
+alum-visit/uc-f1:
+    display_name: Yushi Hu,
+    role: alum-visit/uc
+    bio: U. Chicago (2019-20)
+
+alum-visit/uc-f0:
+    display_name: Yang Chen,
+    role: alum-visit/uc
+    bio: U. Chicago (2018)
+
+alum-visit/uc-e9:
+    display_name: Xiaoan Ding,
+    role: alum-visit/uc
+    bio: U. Chicago (2018-)
+
+alum-visit/uc-e8:
+    display_name: Jack Huang,
+    role: alum-visit/uc
+    bio: U. Chicago (2018)
+
+alum-visit/uc-e7:
+    display_name: Yuanzhe (Richard) Pang,
+    role: alum-visit/uc
+    bio: U. Chicago (2017-2018)
+
+alum-visit/uc-e6:
+    display_name: Jon Michaux,
+    role: alum-visit/uc
+    bio: U. Chicago (2017)
+
+alum-visit/uc-e5:
+    display_name: Kalpesh Krishna,
+    role: alum-visit/uc
+    bio: IIT Bombay (2017)
+
+alum-visit/uc-e4:
+    display_name: Deblin Bagchi,
+    role: alum-visit/uc
+    bio: Ohio State U. (2016)
+
+alum-visit/uc-e3:
+    display_name: Jon Cai,
+    role: alum-visit/uc
+    bio: U. Chicago (2016&ndash;2017)
+
+alum-visit/uc-e2:
+    display_name: Arjun Chandrasekaran,
+    role: alum-visit/uc
+    bio: Virginia Tech (2016)
+    webpage: https://filebox.ece.vt.edu/~carjun/
+
+alum-visit/uc-e1:
+    display_name: Cha Chen,
+    role: alum-visit/uc
+    bio: U. Chicago (2016)
+
+alum-visit/uc-e0:
+    display_name: Zewei Chu,
+    role: alum-visit/uc
+    bio: U. Chicago (2016&ndash;2020)
+    webpage: http://people.cs.uchicago.edu/~zeweichu/
+
+alum-visit/uc-d9:
+    display_name: Arnab Ghosh,
+    role: alum-visit/uc
+    bio: IIT Kanpur (2016)
+
+alum-visit/uc-d8:
+    display_name: Wanjia He,
+    role: alum-visit/uc
+    bio: U. Chicago (2016)
+
+alum-visit/uc-d7:
+    display_name: Dan Hendrycks,
+    role: alum-visit/uc
+    bio: U. Chicago (2016&ndash;2017)
+
+alum-visit/uc-d6:
+    display_name: Myungin Kim,
+    role: alum-visit/uc
+    bio: U. Chicago (2016)
+    webpage: https://sites.google.com/site/myunginswebsite/home
+
+alum-visit/uc-d5:
+    display_name: Aravind Srinivas Lakshminarayanan,
+    role: alum-visit/uc
+    bio: IIT Madras (2016)
+
+alum-visit/uc-d4:
+    display_name: Dian Li,
+    role: alum-visit/uc
+    bio: U. Chicago (2016)
+
+alum-visit/uc-d3:
+    display_name: Raci Lynch,
+    role: alum-visit/uc
+    bio: Stanford U. (2016)
+
+alum-visit/uc-d2:
+    display_name: Yixin Nie,
+    role: alum-visit/uc
+    bio: U. Chicago (2016)
+
+alum-visit/uc-d1:
+    display_name: Manasvi Sagarkar,
+    role: alum-visit/uc
+    bio: U. Chicago (2016&ndash;2018)
+
+alum-visit/uc-d0:
+    display_name: Aynaz Taheri,
+    role: alum-visit/uc
+    bio: UIC (2016)
+
+alum-visit/uc-c9:
+    display_name: Trang Tran,
+    role: alum-visit/uc
+    bio: U. Washington (2016)
+    webpage: https://students.washington.edu/ttmt001/
+
+alum-visit/uc-c8:
+    display_name: Hang Chu,
+    role: alum-visit/uc
+    bio: Cornell (2015)
+    webpage: http://chenlab.ece.cornell.edu/people/Hang/
+
+alum-visit/uc-c7:
+    display_name: Rasool Fakoor,
+    role: alum-visit/uc
+    bio: U. Texas Arlington (2015)
+    webpage: https://sites.google.com/site/rfakoor/home
+
+alum-visit/uc-c6:
+    display_name: Xiang Li,
+    role: alum-visit/uc
+    bio: U. Chicago (2015)
+
+alum-visit/uc-c5:
+    display_name: Zuyao Li,
+    role: alum-visit/uc
+    bio: USC (2015)
+    webpage: http://www-scf.usc.edu/~zuyaoli/
+
+alum-visit/uc-c4:
+    display_name: Hongyuan Mei,
+    role: alum-visit/uc
+    bio: U. Chicago (2015)
+
+alum-visit/uc-c3:
+    display_name: Naohiro Tawara,
+    role: alum-visit/uc
+    bio: Waseda U. (2015)
+
+alum-visit/uc-c2:
+    display_name: Zhengyang Wu,
+    role: alum-visit/uc
+    bio: Georgia Tech. (2015)
+
+alum-visit/uc-c1:
+    display_name: Pranava Swaroop Madhyastha,
+    role: alum-visit/uc
+    bio: Universitat Polit&egrave;cnica de Catalunya (2015)
+    webpage: http://www.cs.upc.edu/~pranava/
+
+alum-visit/uc-c0:
+    display_name: Herman Kamper,
+    role: alum-visit/uc
+    bio: U. Edinburgh (2015)
+    webpage: http://www.kamperh.com/
+
+alum-visit/uc-b9:
+    display_name: Dhivya Eswaran,
+    role: alum-visit/uc
+    bio: IIT Madras (2015)
+    webpage: http://www.cse.iitm.ac.in/~dhivyae/
+
+alum-visit/uc-b8:
+    display_name: Ang Lu,
+    role: alum-visit/uc
+    bio: Tsinghua University (2014)
+
+alum-visit/uc-b7:
+    display_name: Mengyin Lu,
+    role: alum-visit/uc
+    bio: U. Chicago (2013&ndash;2015)
+    webpage: http://galton.uchicago.edu/people/phd-students.shtml
+
+alum-visit/uc-b6:
+    display_name: John Wieting,
+    role: alum-visit/uc
+    bio: UIUC (2014, 2015)
+    webpage: http://ttic.uchicago.edu/~wieting/
+
+alum-visit/uc-b5:
+    display_name: Jing Wang,
+    role: alum-visit/uc
+    bio: UIC (2014)
+
+alum-visit/uc-b4:
+    display_name: Katie Henry,
+    role: alum-visit/uc
+    bio: U. Chicago (2012&ndash;2013)
+
+alum-visit/uc-b3:
+    display_name: Hadas Benisty,
+    role: alum-visit/uc
+    bio: Technion (2012)
+
+alum-visit/uc-b2:
+    display_name: Soham De,
+    role: alum-visit/uc
+    bio: Jadavpur University (2012)
+
+alum-visit/uc-b1:
+    display_name: Victoria Evelkin,
+    role: alum-visit/uc
+    bio: Technion (2012)
+
+alum-visit/uc-b0:
+    display_name: Arild Brandrud N&aelig;ss,
+    role: alum-visit/uc
+    bio: NTNU (2010&ndash;2012)
+
+alum-visit/uc-a9:
+    display_name: Sujeeth Bharadwaj,
+    role: alum-visit/uc
+    bio: UIUC (2011)
+
+alum-visit/uc-a8:
+    display_name: Matt Faytak,
+    role: alum-visit/uc
+    bio: U. Chicago (2010&ndash;2011)
+
+alum-visit/uc-a7:
+    display_name: Katie Mock,
+    role: alum-visit/uc
+    bio: U. Chicago (2010&ndash;2011)
+
+alum-visit/uc-a6:
+    display_name: Anna Margolis,
+    role: alum-visit/uc
+    bio: U. Washington (2009&ndash;2011)
+
+alum-visit/uc-a5:
+    display_name: Mindi Porebsky,
+    role: alum-visit/uc
+    bio: UIUC (2011)
+
+alum-visit/uc-a4:
+    display_name: Sam Bowman,
+    role: alum-visit/uc
+    bio: U. Chicago (2010)
+
+alum-visit/uc-a3:
+    display_name: Preethi Jyothi,
+    role: alum-visit/uc
+    bio: Ohio State U. (2010)
+    webpage: http://www.cse.ohio-state.edu/~jyothi/
+
+alum-visit/uc-a2:
+    display_name: Gabrielle Knight,
+    role: alum-visit/uc
+    bio: Northwestern U. (2010)
+
+alum-visit/uc-a1:
+    display_name: Rohit Prabhavalkar,
+    role: alum-visit/uc
+    bio: Ohio State U. (2010)
+    webpage: http://www.cse.ohio-state.edu/~prabhava/
+
+alum-visit/uc-a0:
+    display_name: Mark Stoehr,
+    role: alum-visit/uc
+    bio: U. Chicago (2009&ndash;2010)

@@ -1,0 +1,17 @@
+
+{% assign item = include.item %}
+{% assign icon = item.icon %}
+
+<li class="news_post">
+    <div class="icon">
+        <i class="fa fa-{{ icon }}"></i>
+    </div>
+    <div class="text">
+        <div class="date">
+            {{ post.quarter }}
+        </div>
+        
+        {{ post.content | markdownify | remove: '<p>' | remove: '</p>' }}
+
+    </div>
+</li>

@@ -1,0 +1,270 @@
+---
+---
+
+$gray: #999;
+$light-gray: #EEE;
+$ttic-blue: #036eb6;
+
+/* TTIC colors for the navigation bar */
+
+$navbar-light-hover-color: #fff;
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #fff;
+    background-color: $ttic-blue;
+}
+
+.nav-link {
+    color: $ttic-blue;
+}
+
+.nav-link:hover{
+    color: #9fa1a4;
+}
+
+a:link {
+    color: $ttic-blue;
+}
+a:visited {
+    color: $ttic-blue;
+}
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+}
+
+.container {
+    margin-left: 82.5px;
+    margin-right: 82.5px;
+}
+
+@media (max-width: 480px) {
+    
+    .container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #navbar {
+        padding-top: 15px;
+    }
+
+    section {
+        margin-left: 10px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    
+    .container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #navbar {
+        padding-top: 10px;
+    }
+
+    section {
+        margin-left: 10px;
+    }
+
+}
+
+.header {
+    border-bottom: 1px solid $light-gray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer {
+    /* padding-top: 19px; */
+    color: $gray;
+    border-top: 1px solid $light-gray;
+    text-align: center;
+    font-size: 0.8em;
+
+    a:link, a:visited {
+        color: $gray;
+    }
+
+    p {
+        margin-bottom: 0
+    }
+}
+
+.fa {
+    color: $gray;
+}
+a > .fa {
+    // make sure that font-awesome icons are underlined in links
+    display: inline;
+}
+
+/* /\* Customize container *\/ */
+/* @media (min-width: 768px) { */
+/*     .container { */
+/*         max-width: 730px; */
+/*     } */
+/* } */
+
+/* Jumbotron */
+.jumbotron {
+    text-align: justify;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    font-size: 125%
+}
+
+/* Group logo */
+#logo {
+    margin: 0 0 0 0;
+}
+
+.grouptitle {
+    color: #037ccd;
+    font-size: 175%;
+    font-family: sans-serif;
+}
+
+.grouptitle:hover {
+    text-decoration: none;
+}
+
+/* Front page news. */
+ul.news {
+  list-style-type: none;
+  padding-left: 0em;
+  display: table; }
+  ul.news .icon {
+    color: #bbb;
+    font-size: 2em;
+    width: 4rem;
+    text-align: center; }
+  ul.news{
+    padding: 0rem 1rem;
+  }
+  .text{
+    padding-left: 0.5em;
+  }
+  ul.news .text, ul.news .icon {
+    display: table-cell;
+    vertical-align: top; }
+  ul.news .date {
+    color: #888;
+    font-weight: bold;
+    display: block;
+    font-size: 0.8em; }
+
+.news_post{
+    padding-bottom: 1em
+}
+
+.illustration {
+  float: right;
+  margin: 0 0 1em 1em; }
+
+@media (min-width: 576px) {
+    .project-people { column-count: 2 }
+    .card-columns   { column-count: 2 }
+}
+
+@media (min-width: 768px) {
+    .role.faculty      { column-count: 2 }
+    .role.phd      { column-count: 2 }
+    .project-people { column-count: 3 }
+    .card-columns   { column-count: 2 }
+}
+
+.title img {
+    max-width: 50%;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.profile {
+    object-fit: cover; // makes sure it's cropped
+}
+
+.noprofile {
+    circle {
+        fill: $light-gray;
+    }
+    text {
+        font-weight: 700;
+        fill: white;
+    }
+}
+
+.card {
+
+    .profile {
+        height: 40px;
+        width: 40px;
+        margin: 3px;
+    }
+
+    .card-footer { 
+        padding: 0.5em;
+        padding-left: 20px;
+
+        a:link, a:visited {
+            padding-left: 5px;
+        }
+    }
+}
+
+.person {
+
+    margin-bottom: 15px;
+
+    .profile {
+        height: 165px;
+        width: 110px;
+    }
+
+    .bio {
+        font-size: 1.5em;
+    }
+
+    .person-name {
+        margin: 0;
+        font-size: 1.5em;
+        a:link {
+            color: $ttic-blue;
+        }
+        a:visited {
+            color: $ttic-blue;
+        }
+    }
+
+    .alum-bio, .alum-person-name {
+        font-size: 1.2em;
+        display: inline-block;
+    }
+
+}
+
+.role.faculty, .role.phd, .role.alum-faculty, .role.alum-phd, .role.alum-visit\/uc {
+    padding-top: 0.5em;
+}
+
+
+.person-without-image {
+    margin: 0;
+
+    .bio {
+        margin-left: 5px;
+    }
+}
+
+svg {
+    // make the alignment just like img from bootstrap's reboot.scss
+    vertical-align: middle;
+}
+

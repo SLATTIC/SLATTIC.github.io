@@ -1,0 +1,53 @@
+name: Speech and Language @ TTIC
+url: https://home.ttic.edu/~klivescu/SLATTIC/
+
+exclude: [README.md, Makefile, screenshot.png]
+
+# colorize code snippets with the pygments module
+highlighter: pygments
+
+# The path structure for blog posts.
+permalink: /blog/:year/:month/:day/:title.html
+
+# Sections on the "people" page.
+roles:
+  - key: faculty
+    name: Faculty
+  - key: phd
+    name: PhD students
+  - key: alum-faculty
+    name: Faculty alumni
+  - key: alum-phd
+    name: PhD student/post-doc alumni
+  - key: alum-visit/uc
+    name: Visiting students, U. Chicago student collaborators
+
+# Number of news stories on the front page.
+front_page_news: 27
+
+# Base pathname for links.
+base: ''
+# base: '/~zheweisun/clmock'
+# base: '/compling'
+
+# make pages for the _projects folder
+collections:
+  projects:
+    output: true
+
+# Navigation bar links.
+navigation:
+  - title: Home
+    link: /
+  - title: People
+    link: /people.html
+  #- title: Research
+  #  link: /research.html
+  # - title: Research
+  #   link: /labs.html
+  #- title: Code
+  #  link: /code.html
+  #- title: Courses
+  #  link: /courses.html
+  - title: Resources
+    link: /resources.html

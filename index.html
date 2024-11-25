@@ -1,0 +1,60 @@
+---
+layout: default
+title: Speech and Language @ TTIC
+notitle: true
+
+# groups of columns of {roles: list, width: num, image: bool}
+role-tables:
+- - roles: [faculty, postdoc, staff]
+    width: 4
+    image: true
+  - roles: [grad]
+    width: 8
+    image: true
+- - roles: [collab, ugrad, ugrad-alum]
+    width: 5
+    image: false
+  - roles: [alum]
+    width: 7
+    image: false
+
+---
+
+<section>
+    <style>
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+    </style>
+    <div class="imgbox">
+        <img class="center-fit" src="img/2016Summer.jpg">
+    <br>
+    <h2>News</h2>
+    <br>
+
+    <ul class="news">
+        {% for post in site.posts limit: site.front_page_news %}
+            {% include news-item.html item=post %}
+        {% endfor %}
+
+        {% assign numposts = site.posts | size %}
+        {% if numposts >= 1 %}
+            <li>
+                <div class="icon">
+                    <span class="fa fa-fw fa-history"></span>
+                </div>
+                <div class="text">
+                    <a href="{{ site.base }}/blog.html">Older news&hellip;</a>
+                </div>
+            </li>
+        {% endif %}
+    </ul>
+    
+    
+</section>
