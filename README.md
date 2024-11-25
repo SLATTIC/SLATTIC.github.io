@@ -77,5 +77,5 @@ To add a news post, create a markdown file and place it under ```_posts```. To c
 
 ### Adding a resource
 
-Go to ```resources.html``` and add the content directly in html (within an <li> tag).
+Go to ```resources.html``` and add the content directly in html (within an \<li> tag).
 ``
