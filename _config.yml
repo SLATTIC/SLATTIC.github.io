@@ -27,8 +27,7 @@ front_page_news: 27
 
 # Base pathname for links.
 base: ''
-# base: '/~zheweisun/clmock'
-# base: '/compling'
+#base: /~zsun
 
 # make pages for the _projects folder
 collections:
