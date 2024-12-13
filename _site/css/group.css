@@ -26,6 +26,9 @@ body {
   margin-left: 82.5px;
   margin-right: 82.5px; }
 
+@media (min-width: 992px) {
+  .container {
+    max-width: 90%; } }
 @media (max-width: 480px) {
   .container {
     margin-left: 0px;
