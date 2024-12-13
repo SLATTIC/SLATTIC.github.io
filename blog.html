@@ -1,9 +1,13 @@
 ---
 layout: default
 title: News
+notitle: true
 ---
 
 <section>
+<br>
+    <h2>News</h2>
+<br>
 <ul class="news">
 {% for post in site.posts %}
     {% include news-item.html item=post %}
