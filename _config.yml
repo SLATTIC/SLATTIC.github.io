@@ -1,5 +1,5 @@
 name: Speech and Language @ TTIC
-url: https://home.ttic.edu/~klivescu/SLATTIC/
+url: https://slattic.github.io/
 
 exclude: [README.md, Makefile, screenshot.png]
 
@@ -27,7 +27,6 @@ front_page_news: 27
 
 # Base pathname for links.
 base: ''
-#base: /~zsun
 
 # make pages for the _projects folder
 collections:
