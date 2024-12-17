@@ -26,14 +26,58 @@ role-tables:
             display: grid;
             height: 100%;
         }
-        .center-fit {
-            max-width: 100%;
-            max-height: 100vh;
+        .main-img {
+            width: 100%;
+            height: 100%;
             margin: auto;
+            border-radius: 20px 0px 0px 20px;
+            border: 1px solid black;
         }
+        .side-img {
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            border-radius: 0px 20px 0px 0px;
+            border: 1px solid black;
+            vertical-align: baseline;
+        }
+        .side-img2 {
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            border-radius: 0px 0px 20px 0px;
+            border: 1px solid black;
+            vertical-align: baseline;
+        }
+        
+        .item1 { grid-area: header;}
+		.item2 { grid-area: menu;}
+		.item3 { grid-area: main;}
+
+		.grid-container {
+		  display: grid;
+		  grid-template-areas:
+		    'header header header header menu'
+		    'header header header header main';
+		}
+
+		.grid-container > div {
+		  padding: 0 0;
+		}
     </style>
     <div class="imgbox">
-        <img class="center-fit" src="img/2016Summer.jpg">
+        <div class="grid-container">
+			<div class="item1">
+		 		<img class="main-img" src="img/2016Summer.jpg">
+			</div>
+			<div class="item2">
+		 		<img class="side-img" src="img/2024Fall.jpg">
+			</div>
+			<div class="item3">
+		 		<img class="side-img2" src="img/2024EMNLP.jpg">
+			</div>
+		</div>
+    </div>
     <br>
     <h2>News</h2>
     <br>
