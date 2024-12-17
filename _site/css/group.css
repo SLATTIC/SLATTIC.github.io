@@ -59,12 +59,8 @@ body {
   section {
     margin-left: 10px; }
 
-  .resbullet::marker {
-    content: '';
-    color: #036eb6;
-    hue: 200;
-    font-size: 1em;
-    display: list-item; } }
+  .sl-resources {
+    font-size: 1em; } }
 @media (max-width: 320px) {
   .container {
     margin-left: 0px;
@@ -74,7 +70,10 @@ body {
     padding-top: 10px; }
 
   section {
-    margin-left: 10px; } }
+    margin-left: 10px; }
+
+  .sl-resources {
+    font-size: 1em; } }
 .header {
   border-bottom: 1px solid #EEE;
   padding-bottom: 10px;

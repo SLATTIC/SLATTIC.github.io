@@ -84,12 +84,8 @@ body {
         margin-left: 10px;
     }
 
-    .resbullet::marker{
-        content: '';
-        color: $ttic-blue;
-        hue: 200;
+    .sl-resources{
         font-size: 1em;
-        display: list-item;
     }
 
 }
@@ -107,6 +103,10 @@ body {
 
     section {
         margin-left: 10px;
+    }
+
+    .sl-resources{
+        font-size: 1em;
     }
 
 }
