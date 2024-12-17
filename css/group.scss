@@ -11,10 +11,6 @@ $ttic-blue: #036eb6;
     font-size: 20px;
 }
 
-::marker {
-  
-}
-
 .resbullet::marker{
     content: "»";
     color: $ttic-blue;
