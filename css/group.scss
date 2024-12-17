@@ -87,6 +87,10 @@ body {
         font-size: 1em;
     }
 
+    .grouptitle {
+        padding-top: 0.5em;
+    }
+
 }
 
 @media (max-width: 320px) {
@@ -106,6 +110,10 @@ body {
 
     .sl-resources{
         font-size: 1em;
+    }
+
+    .grouptitle {
+        padding-top: 0.5em;
     }
 
 }

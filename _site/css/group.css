@@ -59,7 +59,10 @@ body {
     margin-left: 10px; }
 
   .sl-resources {
-    font-size: 1em; } }
+    font-size: 1em; }
+
+  .grouptitle {
+    padding-top: 0.5em; } }
 @media (max-width: 320px) {
   .container {
     margin-left: 0px;
@@ -72,7 +75,10 @@ body {
     margin-left: 10px; }
 
   .sl-resources {
-    font-size: 1em; } }
+    font-size: 1em; }
+
+  .grouptitle {
+    padding-top: 0.5em; } }
 .header {
   border-bottom: 1px solid #EEE;
   padding-bottom: 10px;
