@@ -9,6 +9,11 @@ $ttic-blue: #036eb6;
 
 .toptext{
     font-size: 20px;
+    padding-top: 5px;
+}
+
+.toptext-nopad{
+    font-size: 20px;
 }
 
 .resbullet{
@@ -91,6 +96,10 @@ body {
         padding-top: 0.5em;
     }
 
+    .toptext{
+        padding-top: 0px;
+    }
+
 }
 
 @media (max-width: 320px) {
@@ -114,6 +123,10 @@ body {
 
     .grouptitle {
         padding-top: 0.5em;
+    }
+
+    .toptext{
+        padding-top: 0px;
     }
 
 }
