@@ -16,7 +16,6 @@
 .sl-resources {
   list-style-type: "»";
   color: #036eb6;
-  hue: 200;
   font-size: 1.5em; }
 
 /* TTIC colors for the navigation bar */
@@ -123,6 +122,9 @@ a > .fa {
   text-decoration: none; }
 
 /* Front page news. */
+h2.newstitle {
+  padding-bottom: 0.2em; }
+
 ul.news {
   list-style-type: none;
   padding-left: 0em;
@@ -142,13 +144,14 @@ ul.news {
 
 ul.news .text, ul.news .icon {
   display: table-cell;
-  vertical-align: top; }
+  vertical-align: middle; }
 
 ul.news .date {
   color: #888;
   font-weight: bold;
   display: block;
-  font-size: 0.8em; }
+  font-size: 1.5em;
+  padding-bottom: 0.25em; }
 
 .news_post {
   padding-bottom: 1em; }

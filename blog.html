@@ -6,11 +6,18 @@ notitle: true
 
 <section>
 <br>
-    <h2>News</h2>
-<br>
+<h2 class="newstitle">News</h2>
 <ul class="news">
+{% assign prev_quarter = "" %}
 {% for post in site.posts %}
+    {% if post.quarter != prev_quarter %}
+        {% assign prev_quarter = post.quarter %}
+        <div class="date">
+            {{ post.quarter }}
+        </div>
+    {% endif %}
     {% include news-item.html item=post %}
 {% endfor %}
+
 </ul>
 </section>

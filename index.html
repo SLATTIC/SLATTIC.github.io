@@ -79,16 +79,31 @@ role-tables:
 		</div>
     </div>
     <br>
-    <h2>News</h2>
-    <br>
+    <h2 class="newstitle">News</h2>
+
+    {% assign need_older_news = 0 %}
 
     <ul class="news">
-        {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
+        {% assign c_quarters = 0 %}
+        {% assign prev_quarter = "" %}
+        {% for post in site.posts %}
+            {% if post.quarter != prev_quarter %}
+                {% assign c_quarters = c_quarters | plus: 1 %}
+                {% assign prev_quarter = post.quarter %}
+                {% if c_quarters <= site.front_page_news %}
+                    <div class="date">
+                        {{ post.quarter }}
+                    </div>
+                {% endif %}
+            {% endif %}
+            {% if c_quarters <= site.front_page_news %}
+                {% include news-item.html item=post %}
+            {% else %}
+                {% assign need_older_news = 1 %}
+            {% endif %}
         {% endfor %}
 
-        {% assign numposts = site.posts | size %}
-        {% if numposts >= 1 %}
+        {% if need_older_news == 1 %}
             <li>
                 <div class="icon">
                     <span class="fa fa-fw fa-history"></span>

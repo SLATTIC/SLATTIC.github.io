@@ -7,9 +7,6 @@
         <i class="fa fa-{{ icon }}"></i>
     </div>
     <div class="text">
-        <div class="date">
-            {{ post.quarter }}
-        </div>
         
         {{ post.content | markdownify | remove: '<p>' | remove: '</p>' }}
 

@@ -22,8 +22,8 @@ roles:
   - key: alum-visit/uc
     name: Visiting students, U. Chicago student collaborators
 
-# Number of news stories on the front page.
-front_page_news: 27
+# Number of news quarters on the front page.
+front_page_news: 3
 
 # Base pathname for links.
 base: ''
