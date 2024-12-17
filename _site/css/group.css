@@ -5,21 +5,19 @@
 .toptext {
   font-size: 20px; }
 
-.resbullet::marker {
-  content: "»";
-  color: #036eb6;
-  hue: 200;
-  font-size: 1.5em;
-  display: list-item; }
-
 .resbullet {
   padding-left: 10px; }
 
 .restext {
   color: black;
   font-size: 16px;
-  line-height: 22px;
-  vertical-align: top; }
+  line-height: 22px; }
+
+.sl-resources {
+  list-style-type: "»";
+  color: #036eb6;
+  hue: 200;
+  font-size: 1.5em; }
 
 /* TTIC colors for the navigation bar */
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -59,7 +57,14 @@ body {
     padding-top: 15px; }
 
   section {
-    margin-left: 10px; } }
+    margin-left: 10px; }
+
+  .resbullet::marker {
+    content: '';
+    color: #036eb6;
+    hue: 200;
+    font-size: 1em;
+    display: list-item; } }
 @media (max-width: 320px) {
   .container {
     margin-left: 0px;

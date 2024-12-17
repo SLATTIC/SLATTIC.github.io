@@ -11,14 +11,6 @@ $ttic-blue: #036eb6;
     font-size: 20px;
 }
 
-.resbullet::marker{
-    content: "»";
-    color: $ttic-blue;
-    hue: 200;
-    font-size: 1.5em;
-    display: list-item;
-}
-
 .resbullet{
     padding-left: 10px;
 }
@@ -27,7 +19,13 @@ $ttic-blue: #036eb6;
     color: black;
     font-size:16px;
     line-height:22px;
-    vertical-align: top;
+}
+
+.sl-resources{
+    list-style-type:"»";
+    color: $ttic-blue;
+    hue: 200;
+    font-size: 1.5em;
 }
 
 /* TTIC colors for the navigation bar */
@@ -84,6 +82,14 @@ body {
 
     section {
         margin-left: 10px;
+    }
+
+    .resbullet::marker{
+        content: '';
+        color: $ttic-blue;
+        hue: 200;
+        font-size: 1em;
+        display: list-item;
     }
 
 }
