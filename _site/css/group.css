@@ -1,5 +1,25 @@
+@charset "UTF-8";
 .rounded-4x {
   border-radius: 20px !important; }
+
+.toptext {
+  font-size: 20px; }
+
+.resbullet::marker {
+  content: "»";
+  color: #036eb6;
+  hue: 200;
+  font-size: 1.5em;
+  display: list-item; }
+
+.resbullet {
+  padding-left: 5px; }
+
+.restext {
+  color: black;
+  font-size: 16px;
+  line-height: 22px;
+  vertical-align: top; }
 
 /* TTIC colors for the navigation bar */
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {

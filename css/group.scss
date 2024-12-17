@@ -7,6 +7,33 @@ $ttic-blue: #036eb6;
 
 .rounded-4x { border-radius: 20px !important;}
 
+.toptext{
+    font-size: 20px;
+}
+
+::marker {
+  
+}
+
+.resbullet::marker{
+    content: "»";
+    color: $ttic-blue;
+    hue: 200;
+    font-size: 1.5em;
+    display: list-item;
+}
+
+.resbullet{
+    padding-left: 5px;
+}
+
+.restext{
+    color: black;
+    font-size:16px;
+    line-height:22px;
+    vertical-align: top;
+}
+
 /* TTIC colors for the navigation bar */
 
 $navbar-light-hover-color: #fff;
