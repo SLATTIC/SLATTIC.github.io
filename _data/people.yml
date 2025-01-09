@@ -5,6 +5,13 @@ prof-sg:
     image: https://ttic.edu/img/ginosar_small.jpg
     bio: Assistant Professor
 
+prof-ah:
+    display_name: "Ari Holtzman"
+    webpage: https://ariholtzman.com/
+    role: faculty
+    image: https://www.ttic.edu/img/holtzman_small.jpg
+    bio: Courtesy Faculty
+
 prof-jk:
     display_name: "Jungo Kasai"
     webpage: https://jungokasai.github.io
@@ -71,9 +78,9 @@ prof-mw:
 # Add a padding dummy entry if the number of people is odd
 # This works around a formatting issue
 # Original template code modified to display empty image with box when the name field is empty
-# prof-pad:
-#     display_name: ""
-#     role: faculty
+prof-pad:
+    display_name: ""
+    role: faculty
 
 
 phd-bmc:
