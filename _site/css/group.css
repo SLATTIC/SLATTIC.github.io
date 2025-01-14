@@ -189,6 +189,9 @@ ul.news .date {
   .role.phd {
     column-count: 2; }
 
+  .role.visit-uc {
+    column-count: 2; }
+
   .project-people {
     column-count: 3; }
 
@@ -237,7 +240,7 @@ section {
     font-size: 1.2em;
     display: inline-block; }
 
-.role.faculty, .role.phd, .role.alum-faculty, .role.alum-phd, .role.alum-visit\/uc {
+.role.faculty, .role.phd, .role.visit-uc, .role.alum-faculty, .role.alum-phd, .role.alum-visit-uc {
   padding-top: 0.5em; }
 
 .person-without-image {

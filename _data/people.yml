@@ -132,9 +132,30 @@ phd-tx:
     image: http://www.ttic.edu/img/tianyangxu_small.jpg
 
 # Padding dummy entry for formatting
-# grad-pad:
+# phd-pad:
 #     display_name: ""
 #     role: phd
+
+visit-uc-sg:
+    display_name: Shester Gueuwou
+    webpage: https://shesterg.github.io/
+    role: visit-uc
+    bio: Kwame Nkrumah University of Science and Technology
+    image: img/visitors/shestergueuwou.jpeg
+
+visit-uc-yl:
+    display_name: Yanhong Li
+    webpage: https://www.yanhongli.com/
+    role: visit-uc
+    bio: University of Chicago
+    image: img/visitors/yanhongli.jpeg
+
+
+
+# Padding dummy entry for formatting
+# visit-uc-pad:
+#     display_name: ""
+#     role: visit-uc
 
 #############
 ####ALUMS####
@@ -327,306 +348,296 @@ alum-phd-a0:
 
 ###VISITING/UCHICAGO###
 
-alum-visit/uc-f7:
+alum-visit-uc-f5:
     display_name: Songcheng Cai,
-    role: alum-visit/uc
-    bio: Zhejiang U. (2023-)
+    role: alum-visit-uc
+    bio: Zhejiang U. (2023-2024)
 
-alum-visit/uc-f6:
-    display_name: Shester Gueuwou,
-    role: alum-visit/uc
-    bio: Kwame Nkrumah University of Science and Technology (2023-)
-
-alum-visit/uc-f5:
-    display_name: Yanhong Li,
-    role: alum-visit/uc
-    bio: U. Chicago (2023-)
-
-alum-visit/uc-f4:
+alum-visit-uc-f4:
     display_name: Jason Peng,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2020)
 
-alum-visit/uc-f3:
+alum-visit-uc-f3:
     display_name: Tianyu Liu,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: Peking University (2019)
 
-alum-visit/uc-f2:
+alum-visit-uc-f2:
     display_name: Shuning Jin,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: UMN/UMD (2019-20)
 
-alum-visit/uc-f1:
+alum-visit-uc-f1:
     display_name: Yushi Hu,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2019-20)
 
-alum-visit/uc-f0:
+alum-visit-uc-f0:
     display_name: Yang Chen,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2018)
 
-alum-visit/uc-e9:
+alum-visit-uc-e9:
     display_name: Xiaoan Ding,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2018-)
 
-alum-visit/uc-e8:
+alum-visit-uc-e8:
     display_name: Jack Huang,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2018)
 
-alum-visit/uc-e7:
+alum-visit-uc-e7:
     display_name: Yuanzhe (Richard) Pang,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2017-2018)
 
-alum-visit/uc-e6:
+alum-visit-uc-e6:
     display_name: Jon Michaux,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2017)
 
-alum-visit/uc-e5:
+alum-visit-uc-e5:
     display_name: Kalpesh Krishna,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: IIT Bombay (2017)
 
-alum-visit/uc-e4:
+alum-visit-uc-e4:
     display_name: Deblin Bagchi,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: Ohio State U. (2016)
 
-alum-visit/uc-e3:
+alum-visit-uc-e3:
     display_name: Jon Cai,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2016&ndash;2017)
 
-alum-visit/uc-e2:
+alum-visit-uc-e2:
     display_name: Arjun Chandrasekaran,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: Virginia Tech (2016)
     webpage: https://filebox.ece.vt.edu/~carjun/
 
-alum-visit/uc-e1:
+alum-visit-uc-e1:
     display_name: Cha Chen,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2016)
 
-alum-visit/uc-e0:
+alum-visit-uc-e0:
     display_name: Zewei Chu,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2016&ndash;2020)
     webpage: http://people.cs.uchicago.edu/~zeweichu/
 
-alum-visit/uc-d9:
+alum-visit-uc-d9:
     display_name: Arnab Ghosh,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: IIT Kanpur (2016)
 
-alum-visit/uc-d8:
+alum-visit-uc-d8:
     display_name: Wanjia He,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2016)
 
-alum-visit/uc-d7:
+alum-visit-uc-d7:
     display_name: Dan Hendrycks,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2016&ndash;2017)
 
-alum-visit/uc-d6:
+alum-visit-uc-d6:
     display_name: Myungin Kim,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2016)
     webpage: https://sites.google.com/site/myunginswebsite/home
 
-alum-visit/uc-d5:
+alum-visit-uc-d5:
     display_name: Aravind Srinivas Lakshminarayanan,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: IIT Madras (2016)
 
-alum-visit/uc-d4:
+alum-visit-uc-d4:
     display_name: Dian Li,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2016)
 
-alum-visit/uc-d3:
+alum-visit-uc-d3:
     display_name: Raci Lynch,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: Stanford U. (2016)
 
-alum-visit/uc-d2:
+alum-visit-uc-d2:
     display_name: Yixin Nie,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2016)
 
-alum-visit/uc-d1:
+alum-visit-uc-d1:
     display_name: Manasvi Sagarkar,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2016&ndash;2018)
 
-alum-visit/uc-d0:
+alum-visit-uc-d0:
     display_name: Aynaz Taheri,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: UIC (2016)
 
-alum-visit/uc-c9:
+alum-visit-uc-c9:
     display_name: Trang Tran,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Washington (2016)
     webpage: https://students.washington.edu/ttmt001/
 
-alum-visit/uc-c8:
+alum-visit-uc-c8:
     display_name: Hang Chu,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: Cornell (2015)
     webpage: http://chenlab.ece.cornell.edu/people/Hang/
 
-alum-visit/uc-c7:
+alum-visit-uc-c7:
     display_name: Rasool Fakoor,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Texas Arlington (2015)
     webpage: https://sites.google.com/site/rfakoor/home
 
-alum-visit/uc-c6:
+alum-visit-uc-c6:
     display_name: Xiang Li,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2015)
 
-alum-visit/uc-c5:
+alum-visit-uc-c5:
     display_name: Zuyao Li,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: USC (2015)
     webpage: http://www-scf.usc.edu/~zuyaoli/
 
-alum-visit/uc-c4:
+alum-visit-uc-c4:
     display_name: Hongyuan Mei,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2015)
 
-alum-visit/uc-c3:
+alum-visit-uc-c3:
     display_name: Naohiro Tawara,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: Waseda U. (2015)
 
-alum-visit/uc-c2:
+alum-visit-uc-c2:
     display_name: Zhengyang Wu,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: Georgia Tech. (2015)
 
-alum-visit/uc-c1:
+alum-visit-uc-c1:
     display_name: Pranava Swaroop Madhyastha,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: Universitat Polit&egrave;cnica de Catalunya (2015)
     webpage: http://www.cs.upc.edu/~pranava/
 
-alum-visit/uc-c0:
+alum-visit-uc-c0:
     display_name: Herman Kamper,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Edinburgh (2015)
     webpage: http://www.kamperh.com/
 
-alum-visit/uc-b9:
+alum-visit-uc-b9:
     display_name: Dhivya Eswaran,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: IIT Madras (2015)
     webpage: http://www.cse.iitm.ac.in/~dhivyae/
 
-alum-visit/uc-b8:
+alum-visit-uc-b8:
     display_name: Ang Lu,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: Tsinghua University (2014)
 
-alum-visit/uc-b7:
+alum-visit-uc-b7:
     display_name: Mengyin Lu,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2013&ndash;2015)
     webpage: http://galton.uchicago.edu/people/phd-students.shtml
 
-alum-visit/uc-b6:
+alum-visit-uc-b6:
     display_name: John Wieting,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: UIUC (2014, 2015)
     webpage: http://ttic.uchicago.edu/~wieting/
 
-alum-visit/uc-b5:
+alum-visit-uc-b5:
     display_name: Jing Wang,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: UIC (2014)
 
-alum-visit/uc-b4:
+alum-visit-uc-b4:
     display_name: Katie Henry,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2012&ndash;2013)
 
-alum-visit/uc-b3:
+alum-visit-uc-b3:
     display_name: Hadas Benisty,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: Technion (2012)
 
-alum-visit/uc-b2:
+alum-visit-uc-b2:
     display_name: Soham De,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: Jadavpur University (2012)
 
-alum-visit/uc-b1:
+alum-visit-uc-b1:
     display_name: Victoria Evelkin,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: Technion (2012)
 
-alum-visit/uc-b0:
+alum-visit-uc-b0:
     display_name: Arild Brandrud N&aelig;ss,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: NTNU (2010&ndash;2012)
 
-alum-visit/uc-a9:
+alum-visit-uc-a9:
     display_name: Sujeeth Bharadwaj,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: UIUC (2011)
 
-alum-visit/uc-a8:
+alum-visit-uc-a8:
     display_name: Matt Faytak,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2010&ndash;2011)
 
-alum-visit/uc-a7:
+alum-visit-uc-a7:
     display_name: Katie Mock,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2010&ndash;2011)
 
-alum-visit/uc-a6:
+alum-visit-uc-a6:
     display_name: Anna Margolis,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Washington (2009&ndash;2011)
 
-alum-visit/uc-a5:
+alum-visit-uc-a5:
     display_name: Mindi Porebsky,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: UIUC (2011)
 
-alum-visit/uc-a4:
+alum-visit-uc-a4:
     display_name: Sam Bowman,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2010)
 
-alum-visit/uc-a3:
+alum-visit-uc-a3:
     display_name: Preethi Jyothi,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: Ohio State U. (2010)
     webpage: http://www.cse.ohio-state.edu/~jyothi/
 
-alum-visit/uc-a2:
+alum-visit-uc-a2:
     display_name: Gabrielle Knight,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: Northwestern U. (2010)
 
-alum-visit/uc-a1:
+alum-visit-uc-a1:
     display_name: Rohit Prabhavalkar,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: Ohio State U. (2010)
     webpage: http://www.cse.ohio-state.edu/~prabhava/
 
-alum-visit/uc-a0:
+alum-visit-uc-a0:
     display_name: Mark Stoehr,
-    role: alum-visit/uc
+    role: alum-visit-uc
     bio: U. Chicago (2009&ndash;2010)

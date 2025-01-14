@@ -15,12 +15,14 @@ roles:
     name: Faculty
   - key: phd
     name: PhD students
+  - key: visit-uc
+    name: Visiting students, U. Chicago student collaborators
   - key: alum-faculty
     name: Faculty alumni
   - key: alum-phd
     name: PhD student/post-doc alumni
-  - key: alum-visit/uc
-    name: Visiting students, U. Chicago student collaborators
+  - key: alum-visit-uc
+    name: Visiting students, U. Chicago student collaborators alumni
 
 # Number of news quarters on the front page.
 front_page_news: 3
