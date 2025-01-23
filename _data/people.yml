@@ -150,12 +150,17 @@ visit-uc-yl:
     bio: University of Chicago
     image: img/visitors/yanhongli.jpeg
 
+visit-uc-np:
+    display_name: Nolan Pozzobon
+    webpage: https://nolpozz.github.io/
+    role: visit-uc
+    bio: University of Chicago
+    image: img/visitors/nolanpozzobon.jpg
 
-
-# Padding dummy entry for formatting
-# visit-uc-pad:
-#     display_name: ""
-#     role: visit-uc
+#Padding dummy entry for formatting
+visit-uc-pad:
+    display_name: ""
+    role: visit-uc
 
 #############
 ####ALUMS####
