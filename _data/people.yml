@@ -113,6 +113,12 @@ phd-ms:
     role: phd
     image: https://ttic.edu/img/sandoval-castaneda_small.jpg
 
+phd-tx:
+    display_name: "Tianyang (Sally) Xu"
+    webpage: https://ttic.edu/students/
+    role: phd
+    image: http://www.ttic.edu/img/tianyangxu_small.jpg
+
 phd-jy:
     display_name: "Jessica Yang"
     webpage: https://ttic.edu/students/
@@ -125,11 +131,7 @@ phd-dy:
     role: phd
     image: http://www.ttic.edu/img/yunis_small.jpg
 
-phd-tx:
-    display_name: "Tianyang (Sally) Xu"
-    webpage: https://ttic.edu/students/
-    role: phd
-    image: http://www.ttic.edu/img/tianyangxu_small.jpg
+
 
 # Padding dummy entry for formatting
 # phd-pad:
@@ -150,17 +152,38 @@ visit-uc-yl:
     bio: University of Chicago
     image: img/visitors/yanhongli.jpeg
 
+visit-uc-lp:
+    display_name: Lalchand Pandia
+    webpage: https://lalchandpandia.github.io/
+    role: visit-uc
+    bio: University of Chicago
+    image: img/visitors/lalchandpandia.jpg
+
 visit-uc-np:
     display_name: Nolan Pozzobon
     webpage: https://nolpozz.github.io/
     role: visit-uc
     bio: University of Chicago
     image: img/visitors/nolanpozzobon.jpg
+    
+visit-uc-sw:
+    display_name: Siyang Wu
+    webpage: https://www.linkedin.com/in/siyang-wu-61b55b276/
+    role: visit-uc
+    bio: University of Chicago
+    image: img/visitors/siyangwu.jpg
+
+visit-uc-xw:
+    display_name: Xiaoning Wang
+    webpage: https://ischool.illinois.edu/people/xiaoning-wang
+    role: visit-uc
+    bio: University of Illinois Urbana-Champaign
+    image: img/visitors/xiaoningwang.png
 
 #Padding dummy entry for formatting
-visit-uc-pad:
-    display_name: ""
-    role: visit-uc
+# visit-uc-pad:
+#     display_name: ""
+#     role: visit-uc
 
 #############
 ####ALUMS####
