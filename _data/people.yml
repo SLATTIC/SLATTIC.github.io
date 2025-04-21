@@ -82,6 +82,15 @@ prof-pad:
     display_name: ""
     role: faculty
 
+postdoc-sk:
+    display_name: "Serpil Karabüklü"
+    webpage: https://serpilkarabuklu.weebly.com/
+    role: postdoc
+    image: img/serpilkarabuklu.jpg
+
+postdoc-pad:
+    display_name: ""
+    role: postdoc
 
 phd-bmc:
     display_name: "Marcelo Beramendi Caballero"

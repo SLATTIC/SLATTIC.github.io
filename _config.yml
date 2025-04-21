@@ -13,6 +13,8 @@ permalink: /blog/:year/:month/:day/:title.html
 roles:
   - key: faculty
     name: Faculty
+  - key: postdoc
+    name: Postdoctoral fellows
   - key: phd
     name: PhD students
   - key: visit-uc

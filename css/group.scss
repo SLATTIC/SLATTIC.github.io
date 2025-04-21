@@ -239,6 +239,7 @@ ul.news {
 
 @media (min-width: 768px) {
     .role.faculty      { column-count: 2 }
+    .role.postdoc      { column-count: 2 }
     .role.phd      { column-count: 2 }
     .role.visit-uc      { column-count: 2 }
     .project-people { column-count: 3 }
@@ -316,7 +317,7 @@ section {
 
 }
 
-.role.faculty, .role.phd, .role.visit-uc, .role.alum-faculty, .role.alum-phd, .role.alum-visit-uc {
+.role.faculty, .role.postdoc, .role.phd, .role.visit-uc, .role.alum-faculty, .role.alum-phd, .role.alum-visit-uc {
     padding-top: 0.5em;
 }
 
