@@ -68,6 +68,13 @@ prof-ct:
     image: https://www.ttic.edu/img/tan_small.jpg
     bio: Courtesy Faculty
 
+prof-ct:
+    display_name: "Nicholas Tomlin"
+    webpage: https://people.eecs.berkeley.edu/~nicholas_tomlin/
+    role: faculty
+    image: img/nicholastomlin.png
+    bio: Assistant Professor (Starting Fall 2026)
+
 prof-mw:
     display_name: "Matthew Walter"
     webpage: http://www.ttic.edu/walter/
@@ -78,9 +85,9 @@ prof-mw:
 # Add a padding dummy entry if the number of people is odd
 # This works around a formatting issue
 # Original template code modified to display empty image with box when the name field is empty
-prof-pad:
-    display_name: ""
-    role: faculty
+# prof-pad:
+#     display_name: ""
+#     role: faculty
 
 postdoc-sk:
     display_name: "Serpil Karabüklü"
