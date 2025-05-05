@@ -40,6 +40,13 @@ prof-hm:
     image: https://ttic.edu/img/mei_small.jpg
     bio: Visiting Scientist
 
+prof-wm:
+    display_name: "William Merrill"
+    webpage: https://lambdaviking.com/
+    role: faculty
+    image: img/williammerrill.jpeg
+    bio: Assistant Professor (Starting Fall 2026)
+
 prof-km:
     display_name: "Kanishka Misra"
     webpage: https://kanishka.website/
