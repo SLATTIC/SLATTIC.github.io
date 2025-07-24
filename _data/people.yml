@@ -12,13 +12,6 @@ prof-ah:
     image: https://www.ttic.edu/img/holtzman_small.jpg
     bio: Courtesy Faculty
 
-prof-jk:
-    display_name: "Jungo Kasai"
-    webpage: https://jungokasai.github.io
-    role: faculty
-    image: https://ttic.edu/img/kasai_small.jpg
-    bio: Research Assistant Professor (on leave)
-
 prof-kl:
     display_name: "Karen Livescu"
     webpage: http://www.ttic.edu/livescu
@@ -92,9 +85,9 @@ prof-mw:
 # Add a padding dummy entry if the number of people is odd
 # This works around a formatting issue
 # Original template code modified to display empty image with box when the name field is empty
-# prof-pad:
-#     display_name: ""
-#     role: faculty
+prof-pad:
+    display_name: ""
+    role: faculty
 
 postdoc-sk:
     display_name: "Serpil Karabüklü"
@@ -213,6 +206,12 @@ visit-uc-xw:
 #############
 
 ###FACULTY###
+
+alum-faculty-b2:
+    display_name: Jungo Kasai
+    role: alum-faculty
+    bio: (was Research Assistant Professor; now co-founder & CTO at Kotoba Technologies, Inc.)
+    webpage: https://jungokasai.github.io
 
 alum-faculty-b1:
     display_name: Jiawei Zhou
