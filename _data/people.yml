@@ -63,7 +63,7 @@ prof-ct:
 
 prof-ct:
     display_name: "Nicholas Tomlin"
-    webpage: https://people.eecs.berkeley.edu/~nicholas_tomlin/
+    webpage: https://nickatomlin.github.io
     role: faculty
     image: img/nicholastomlin.png
     bio: Assistant Professor (Starting Fall 2026)
@@ -154,6 +154,13 @@ phd-pad:
     display_name: ""
     role: phd
 
+visit-uc-dk:
+    display_name: Darin Keng
+    webpage: https://tw.linkedin.com/in/darin-keng-9223722b7
+    role: visit-uc
+    bio: University of Chicago
+    image: img/visitors/darinkeng.jpeg
+
 visit-uc-yl:
     display_name: Yanhong Li
     webpage: https://www.yanhongli.com/
@@ -188,6 +195,14 @@ visit-uc-xw:
     role: visit-uc
     bio: University of Illinois Urbana-Champaign
     image: img/visitors/xiaoningwang.png
+
+visit-uc-ky:
+    display_name: Kefan Yu
+    webpage: https://huangtubaye233.github.io
+    role: visit-uc
+    bio: Northwestern University
+    image: img/visitors/kefanyu.jpeg
+
 
 #Padding dummy entry for formatting
 visit-uc-pad:
