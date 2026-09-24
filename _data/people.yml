@@ -31,7 +31,7 @@ prof-wm:
     webpage: https://lambdaviking.com/
     role: faculty
     image: img/williammerrill.jpeg
-    bio: Assistant Professor (Starting Fall 2026)
+    bio: Assistant Professor
 
 prof-km:
     display_name: "Kanishka Misra"
@@ -66,7 +66,7 @@ prof-ct:
     webpage: https://nickatomlin.github.io
     role: faculty
     image: img/nicholastomlin.png
-    bio: Assistant Professor (Starting Fall 2026)
+    bio: Assistant Professor
 
 prof-mw:
     display_name: "Matthew Walter"
@@ -160,6 +160,13 @@ phd-dy:
 #     display_name: ""
 #     role: phd
 
+visit-uc-aa:
+    display_name: Aniket Anand
+    webpage: https://aanand300.github.io/
+    role: visit-uc
+    bio: University of Chicago
+    image: img/visitors/aniketanand.png
+
 visit-uc-dk:
     display_name: Darin Keng
     webpage: https://tw.linkedin.com/in/darin-keng-9223722b7
@@ -173,13 +180,6 @@ visit-uc-lp:
     role: visit-uc
     bio: University of Chicago
     image: img/visitors/lalchandpandia.jpg
-
-visit-uc-np:
-    display_name: Nolan Pozzobon
-    webpage: https://nolpozz.github.io/
-    role: visit-uc
-    bio: University of Chicago
-    image: img/visitors/nolanpozzobon.jpg
 
 visit-uc-xw:
     display_name: Xiaoning Wang
@@ -409,6 +409,11 @@ alum-phd-a0:
 
 
 ###VISITING/UCHICAGO###
+
+alum-visit-uc-f8:
+    display_name: Nolan Pozzobon,
+    role: alum-visit-uc
+    bio: U. Chicago (2025)
 
 alum-visit-uc-f7:
     display_name: Siyang Wu,
