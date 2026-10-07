@@ -24,7 +24,7 @@ prof-dm:
     webpage: http://www.ttic.edu/mcallester
     role: faculty
     image: https://www.ttic.edu/img/mcallester_small.jpg
-    bio: Professor
+    bio: Professor Emeritus
 
 prof-wm:
     display_name: "William Merrill"
@@ -32,13 +32,6 @@ prof-wm:
     role: faculty
     image: img/williammerrill.jpeg
     bio: Assistant Professor
-
-prof-km:
-    display_name: "Kanishka Misra"
-    webpage: https://kanishka.website/
-    role: faculty
-    image: https://ttic.edu/img/misra_small.jpg
-    bio: Visiting Faculty
 
 prof-gs:
     display_name: "Greg Shakhnarovich"
@@ -61,9 +54,9 @@ prof-ct:
     image: https://www.ttic.edu/img/tan_small.jpg
     bio: Courtesy Faculty
 
-prof-ct:
+prof-nt:
     display_name: "Nicholas Tomlin"
-    webpage: https://nickatomlin.github.io
+    webpage: https://nickatomlin.github.io/
     role: faculty
     image: img/nicholastomlin.png
     bio: Assistant Professor
@@ -101,7 +94,7 @@ phd-bmc:
 
 phd-ec:
     display_name: "Emily Chang"
-    webpage: https://ttic.edu/students/
+    webpage: https://www.linkedin.com/in/emily-chang-ttic
     role: phd
     image: https://www.ttic.edu/img/chang_small.jpg
 
@@ -123,17 +116,41 @@ phd-jc2:
     role: phd
     image: https://ttic.edu/img/cruzado_small.jpg
 
+phd-rc:
+    display_name: "Ryan Cheng"
+    webpage: https://rm-rf-ryan.github.io/
+    role: phd
+    image: https://www.ttic.edu/img/cheng_small.jpg
+
 phd-sg:
     display_name: Shester Gueuwou
     webpage: https://shesterg.github.io/
     role: phd
     image: img/visitors/shestergueuwou.jpeg
 
+phd-tg:
+    display_name: Tarun Gupta
+    webpage: https://tarun360.github.io/
+    role: phd
+    image: https://www.ttic.edu/img/gupta_small.jpg
+
+phd-sj:
+    display_name: Selim Jerad
+    webpage: https://selimjerad.github.io/
+    role: phd
+    image: https://www.ttic.edu/img/jerad_small.jpg
+
 phd-ms:
     display_name: "Marcelo Sandoval-Castañeda"
     webpage: https://mudtriangle.com
     role: phd
     image: https://ttic.edu/img/sandoval-castaneda_small.jpg
+
+phd-ut:
+    display_name: "Utkarsh Tiwari"
+    webpage: https://ut21.github.io/
+    role: phd
+    image: https://www.ttic.edu/img/tiwari_small.jpg
 
 phd-tx:
     display_name: "Tianyang (Sally) Xu"
@@ -143,15 +160,15 @@ phd-tx:
 
 phd-jy:
     display_name: "Jessica Yang"
-    webpage: https://ttic.edu/students/
+    webpage: https://www.linkedin.com/in/jiamin-yang-83035a211
     role: phd
     image: http://www.ttic.edu/img/yang_small.jpg
 
-phd-dy:
-    display_name: "David Yunis"
-    webpage: https://dyunis.github.io/
+phd-xz:
+    display_name: "Xiaoyuan Zhu"
+    webpage: https://xyzhu123.com/
     role: phd
-    image: http://www.ttic.edu/img/yunis_small.jpg
+    image: https://www.ttic.edu/img/zhu1_small.jpg
 
 
 
@@ -206,6 +223,12 @@ visit-uc-pad:
 #############
 
 ###FACULTY###
+
+alum-faculty-b4:
+    display_name: "Kanishka Misra"
+    webpage: https://kanishka.website/
+    role: alum-faculty
+    bio: (was Research Assistant Professor; now faculty at UT Austin)
 
 alum-faculty-b3:
     display_name: "Hongyuan Mei"
@@ -293,6 +316,18 @@ alum-faculty-a0:
 
 
 ###PHD/POSTDOC###
+
+# phd-dy:
+#     display_name: "David Yunis"
+#     webpage: https://dyunis.github.io/
+#     role: phd
+#     image: http://www.ttic.edu/img/yunis_small.jpg
+
+alum-phd-b9:
+    display_name: "David Yunis"
+    webpage: https://dyunis.github.io/
+    role: alum-phd
+    bio: (Ph.D. 2026 &rarr; Jane Street)
 
 alum-phd-b8:
     display_name: "Ankita Pasad"
