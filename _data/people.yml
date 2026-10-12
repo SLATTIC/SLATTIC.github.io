@@ -1,3 +1,10 @@
+prof-bd:
+    display_name: "Brian DuSell"
+    webpage: https://bdusell.com/
+    role: faculty
+    image: https://bdusell.com/images/photo-472.4aacb740.png
+    bio: Reserach Assistant Professor
+
 prof-sg:
     display_name: "Shiry Ginosar"
     webpage: https://shiry.ttic.edu/
@@ -71,20 +78,20 @@ prof-mw:
 # Add a padding dummy entry if the number of people is odd
 # This works around a formatting issue
 # Original template code modified to display empty image with box when the name field is empty
-# prof-pad:
-#     display_name: ""
-#     role: faculty
+prof-pad:
+    display_name: ""
+    role: faculty
 
-postdoc-sk:
-    display_name: "Serpil Karabüklü"
-    webpage: https://serpilkarabuklu.weebly.com/
-    role: postdoc
-    image: img/serpilkarabuklu.jpg
+# postdoc-sk:
+#     display_name: "Serpil Karabüklü"
+#     webpage: https://serpilkarabuklu.weebly.com/
+#     role: postdoc
+#     image: img/serpilkarabuklu.jpg
 
 # Padding dummy entry for formatting
-postdoc-pad:
-    display_name: ""
-    role: postdoc
+# postdoc-pad:
+#     display_name: ""
+#     role: postdoc
 
 phd-bmc:
     display_name: "Marcelo Beramendi Caballero"
@@ -317,11 +324,17 @@ alum-faculty-a0:
 
 ###PHD/POSTDOC###
 
-# phd-dy:
-#     display_name: "David Yunis"
-#     webpage: https://dyunis.github.io/
-#     role: phd
-#     image: http://www.ttic.edu/img/yunis_small.jpg
+# postdoc-sk:
+#     display_name: ""
+#     webpage: https://serpilkarabuklu.weebly.com/
+#     role: postdoc
+#     image: img/serpilkarabuklu.jpg
+
+alum-phd-c0:
+    display_name: Serpil Karabüklü
+    webpage: https://serpilkarabuklu.github.io/
+    role: alum-phd
+    bio: (post-doc 2024&ndash;2026)
 
 alum-phd-b9:
     display_name: "David Yunis"
