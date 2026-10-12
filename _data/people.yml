@@ -82,11 +82,17 @@ prof-pad:
     display_name: ""
     role: faculty
 
-# postdoc-sk:
-#     display_name: "Serpil Karabüklü"
-#     webpage: https://serpilkarabuklu.weebly.com/
-#     role: postdoc
-#     image: img/serpilkarabuklu.jpg
+visitsc-sk:
+    display_name: "Serpil Karabüklü"
+    webpage: https://serpilkarabuklu.weebly.com/
+    role: visit-sc
+    image: img/serpilkarabuklu.jpg
+
+
+#Padding dummy entry for formatting
+visitsc-pad:
+    display_name: ""
+    role: visit-sc
 
 # Padding dummy entry for formatting
 # postdoc-pad:
@@ -324,17 +330,11 @@ alum-faculty-a0:
 
 ###PHD/POSTDOC###
 
-# postdoc-sk:
-#     display_name: ""
-#     webpage: https://serpilkarabuklu.weebly.com/
-#     role: postdoc
-#     image: img/serpilkarabuklu.jpg
-
-alum-phd-c0:
-    display_name: Serpil Karabüklü
-    webpage: https://serpilkarabuklu.github.io/
-    role: alum-phd
-    bio: (post-doc 2024&ndash;2026)
+# alum-phd-c0:
+#     display_name: Serpil Karabüklü
+#     webpage: https://serpilkarabuklu.github.io/
+#     role: alum-phd
+#     bio: (post-doc 2024&ndash;2026)
 
 alum-phd-b9:
     display_name: "David Yunis"
